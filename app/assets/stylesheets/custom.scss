@@ -97,6 +97,7 @@ footer {
   }
 }
 
+
 @mixin box_sizing{
   -mox-box-sizing: border-box;
   -webkit-box-sizign: border-box;
@@ -151,4 +152,19 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+/*Sign-in Checkbox*/
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }

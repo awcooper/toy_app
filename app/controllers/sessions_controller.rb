@@ -27,4 +27,5 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
 
+
 end
